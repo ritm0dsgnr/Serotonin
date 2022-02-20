@@ -9,11 +9,9 @@ $(".slider__container").slick({
     autoplaySpeed: 3500,
     responsive: [
     {
-        breakpoint: 1200,
-        settings: {
-        arrows: false,
-        dots: true,
-    }
+        breakpoint: 750,
+        slidesToShow: 1,
+        slidesToScroll: 1,
     },
     ]
 });
