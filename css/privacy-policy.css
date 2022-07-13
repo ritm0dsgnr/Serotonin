@@ -1,0 +1,46 @@
+body {
+  font-size: 15px;
+  color: #414141;
+  font-family: Helvetica;
+}
+
+a {
+  color: #414141;
+}
+
+h1 {
+  font-size: 30px;
+  text-align: center;
+  font-weight: normal;
+}
+
+h2 {
+  font-weight: normal;
+  font-size: 20px;
+}
+
+.wrap {
+  width: 800px;
+  margin: 50px auto;
+}
+
+.last-update {
+  text-align: center;
+}
+
+.logo {
+  width: 230px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+@media (max-width: 800px) {
+  h1 {
+    font-size: 26px;
+  }
+  .wrap {
+    width: auto;
+    margin: 50px 15px;
+  }
+}
